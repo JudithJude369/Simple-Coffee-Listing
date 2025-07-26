@@ -38,15 +38,15 @@ This project really thought me alot, especially in the aspect of using useEffect
 
 ## Features
 
-You should create a web page that includes the following elements:
-Create a coffee listing page that matches the given design.
-Use React or other Front-end libraries for this challenge.
-Create a Reusable Card component.
-The card component should include a picture, name, pricing, rating, and number of votes if exists.
-The card component should render popular tag, availability status and ratings conditionally.
-Render Coffee list with given data. The data should come from a given API or downloaded JSON file.
-Users can choose to list all products or just available products.
-Deploy the solution and submit both the Repository URL and Demo URL.
+- You should create a web page that includes the following elements:
+- Create a coffee listing page that matches the given design.
+- Use React or other Front-end libraries for this challenge.
+- Create a Reusable Card component.
+- The card component should include a picture, name, pricing, rating, and number of votes if exists.
+- The card component should render popular tag, availability status and ratings conditionally.
+- Render Coffee list with given data. The data should come from a given API or downloaded JSON file.
+- Users can choose to list all products or just available products.
+- Deploy the solution and submit both the Repository URL and Demo URL.
 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
