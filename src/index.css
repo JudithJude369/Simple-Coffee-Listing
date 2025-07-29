@@ -115,7 +115,6 @@ body {
   min-height: 100vh;
   line-height: 1;
   font-optical-sizing: auto;
-  /* background-color: red; */
   background-color: var(--Very-Dark-Gray);
   color: var(--Light-Beige);
   font-family: var(--FF);
@@ -303,6 +302,7 @@ main {
   border: transparent;
   background-color: var(--Charcoal-Gray);
   cursor: pointer;
+  padding: 0.6rem 0.7rem;
 }
 
 .btn:hover,
@@ -310,7 +310,6 @@ main {
   transition: var(--transition);
   box-shadow: var(--shadow-2);
   background-color: var(--Blue-Gray);
-  padding: 0.6rem 0.7rem;
   font-size: var(--FS-Label);
   border-radius: 12px;
 }
