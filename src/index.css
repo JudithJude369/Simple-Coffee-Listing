@@ -302,9 +302,8 @@ main {
   border: transparent;
   background-color: var(--Charcoal-Gray);
   cursor: pointer;
-  font-size: --FS-Small-Text;
+  font-size: var(--FS-Price-Text);
   font-weight: 900;
-  font-size: var(--FS-Label);
   padding: 0.5rem;
 }
 
