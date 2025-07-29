@@ -302,7 +302,10 @@ main {
   border: transparent;
   background-color: var(--Charcoal-Gray);
   cursor: pointer;
-  padding: 0.6rem 0.7rem;
+  font-size: --FS-Small-Text;
+  font-weight: 900;
+  font-size: var(--FS-Label);
+  padding: 0.5rem;
 }
 
 .btn:hover,
@@ -310,7 +313,6 @@ main {
   transition: var(--transition);
   box-shadow: var(--shadow-2);
   background-color: var(--Blue-Gray);
-  font-size: var(--FS-Label);
   border-radius: 12px;
 }
 /* Tablet Styles */
@@ -334,6 +336,12 @@ main {
 
   .card-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .btn {
+    padding: 0.6rem 0.7rem;
+    font-weight: 800;
+    font-size: var(--FS-Label);
   }
 }
 
@@ -360,5 +368,11 @@ main {
 
   .card-container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .btn {
+    padding: 0.6rem 0.7rem;
+    font-weight: 800;
+    font-size: var(--FS-Label);
   }
 }
